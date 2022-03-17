@@ -49,6 +49,7 @@ canvas {
   margin-bottom: -3px;
   box-shadow: 0 -2px 4px rgba(0,0,0,0.7),
               0 3px 4px rgba(0,0,0,0.7);
+  width: 100%;
 }
 
 .controls {
@@ -96,6 +97,22 @@ button, form a {
     line-height: 3rem;
     padding: .5rem; 
     display: block;
+}
+
+#actions {
+  display: flex;
+  width: 80%;
+  margin: 3rem auto 0.5rem;
+  justify-content: space-between;
+}
+
+#actions a {
+  width: 45%;
+}
+
+#start-btn {
+  background-color: #006d12;
+  background-image: linear-gradient(to bottom, #006d12 0%, #00580f 100%);
 }
 
 button:hover, button:focus, form a:hover, form a:focus {
